@@ -1131,23 +1131,23 @@ Wire Wire Line
 	1850 2450 1850 2500
 Wire Wire Line
 	1850 2500 1900 2500
-Text GLabel 2500 2600 2    50   Input ~ 0
-CRESET
 Text GLabel 1800 2600 0    50   Input ~ 0
+CRESET
+Text GLabel 2500 2600 2    50   Input ~ 0
 CDONE
 Wire Wire Line
 	2500 2600 2400 2600
 Wire Wire Line
 	1900 2600 1800 2600
-Text GLabel 1800 2700 0    50   Input ~ 0
-FLASH_MISO
 Text GLabel 2500 2700 2    50   Input ~ 0
+FLASH_MISO
+Text GLabel 1800 2800 0    50   Input ~ 0
 ICE_SCK
 Wire Wire Line
 	2500 2700 2400 2700
 Wire Wire Line
 	1800 2700 1900 2700
-Text GLabel 1800 2800 0    50   Input ~ 0
+Text GLabel 1800 2700 0    50   Input ~ 0
 ICE_CSN
 Wire Wire Line
 	1800 2800 1900 2800
@@ -1188,7 +1188,7 @@ IOB_16A
 Text GLabel 4900 3600 0    50   Input ~ 0
 IOB_18A
 Text GLabel 4900 3700 0    50   Input ~ 0
-IOB_20A
+ICE_LED
 Text GLabel 4900 3800 0    50   Input ~ 0
 IOB_22A
 Text GLabel 4900 3900 0    50   Input ~ 0
@@ -1825,7 +1825,7 @@ Wire Wire Line
 Text GLabel 9350 4200 2    50   Input ~ 0
 IOB_22A
 Text GLabel 10450 4200 2    50   Input ~ 0
-IOB_20A
+ICE_LED
 Wire Wire Line
 	10450 4200 10350 4200
 Text GLabel 10450 4300 2    50   Input ~ 0
