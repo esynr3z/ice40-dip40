@@ -1,47 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Connector:USB_B_Micro
+# Connector_Generic_Conn_01x20
 #
-DEF Connector:USB_B_Micro J 0 40 Y Y 1 F N
-F0 "J" -200 450 50 H V L CNN
-F1 "Connector:USB_B_Micro" -200 350 50 H V L CNN
-F2 "" 150 -50 50 H I C CNN
-F3 "" 150 -50 50 H I C CNN
-ALIAS USB_B_Mini
-$FPLIST
- USB*
-$ENDFPLIST
-DRAW
-C -150 85 25 0 1 10 F
-C -25 135 15 0 1 10 F
-S -200 -300 200 300 0 1 10 f
-S -5 -300 5 -270 0 1 0 N
-S 10 50 -20 20 0 1 10 F
-S 200 -205 170 -195 0 1 0 N
-S 200 -105 170 -95 0 1 0 N
-S 200 -5 170 5 0 1 0 N
-S 200 195 170 205 0 1 0 N
-P 2 0 1 10 -75 85 25 85 N
-P 4 0 1 10 -125 85 -100 85 -50 135 -25 135 N
-P 4 0 1 10 -100 85 -75 85 -50 35 0 35 N
-P 4 0 1 10 25 110 25 60 75 85 25 110 F
-P 5 0 1 0 -170 220 -70 220 -80 190 -160 190 -170 220 F
-P 9 0 1 0 -185 230 -185 220 -175 190 -175 180 -65 180 -65 190 -55 220 -55 230 -185 230 N
-X VBUS 1 300 200 100 L 50 50 1 1 w
-X D- 2 300 -100 100 L 50 50 1 1 P
-X D+ 3 300 0 100 L 50 50 1 1 P
-X ID 4 300 -200 100 L 50 50 1 1 P
-X GND 5 0 -400 100 U 50 50 1 1 w
-X Shield 6 -100 -400 100 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Connector_Generic:Conn_01x20
-#
-DEF Connector_Generic:Conn_01x20 J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_01x20 J 0 40 Y N 1 F N
 F0 "J" 0 1000 50 H V C CNN
-F1 "Connector_Generic:Conn_01x20" 0 -1100 50 H V C CNN
+F1 "Connector_Generic_Conn_01x20" 0 -1100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -92,11 +56,11 @@ X Pin_9 9 -200 100 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Connector_Generic:Conn_02x04_Odd_Even
+# Connector_Generic_Conn_02x04_Odd_Even
 #
-DEF Connector_Generic:Conn_02x04_Odd_Even J 0 40 Y N 1 F N
+DEF Connector_Generic_Conn_02x04_Odd_Even J 0 40 Y N 1 F N
 F0 "J" 50 200 50 H V C CNN
-F1 "Connector_Generic:Conn_02x04_Odd_Even" 50 -300 50 H V C CNN
+F1 "Connector_Generic_Conn_02x04_Odd_Even" 50 -300 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -123,11 +87,47 @@ X Pin_8 8 300 -200 150 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:C
+# Connector_USB_B_Micro
 #
-DEF Device:C C 0 10 N Y 1 F N
+DEF Connector_USB_B_Micro J 0 40 Y Y 1 F N
+F0 "J" -200 450 50 H V L CNN
+F1 "Connector_USB_B_Micro" -200 350 50 H V L CNN
+F2 "" 150 -50 50 H I C CNN
+F3 "" 150 -50 50 H I C CNN
+ALIAS USB_B_Mini
+$FPLIST
+ USB*
+$ENDFPLIST
+DRAW
+C -150 85 25 0 1 10 F
+C -25 135 15 0 1 10 F
+S -200 -300 200 300 0 1 10 f
+S -5 -300 5 -270 0 1 0 N
+S 10 50 -20 20 0 1 10 F
+S 200 -205 170 -195 0 1 0 N
+S 200 -105 170 -95 0 1 0 N
+S 200 -5 170 5 0 1 0 N
+S 200 195 170 205 0 1 0 N
+P 2 0 1 10 -75 85 25 85 N
+P 4 0 1 10 -125 85 -100 85 -50 135 -25 135 N
+P 4 0 1 10 -100 85 -75 85 -50 35 0 35 N
+P 4 0 1 10 25 110 25 60 75 85 25 110 F
+P 5 0 1 0 -170 220 -70 220 -80 190 -160 190 -170 220 F
+P 9 0 1 0 -185 230 -185 220 -175 190 -175 180 -65 180 -65 190 -55 220 -55 230 -185 230 N
+X VBUS 1 300 200 100 L 50 50 1 1 w
+X D- 2 300 -100 100 L 50 50 1 1 P
+X D+ 3 300 0 100 L 50 50 1 1 P
+X ID 4 300 -200 100 L 50 50 1 1 P
+X GND 5 0 -400 100 U 50 50 1 1 w
+X Shield 6 -100 -400 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_C
+#
+DEF Device_C C 0 10 N Y 1 F N
 F0 "C" 25 100 50 H V L CNN
-F1 "Device:C" 25 -100 50 H V L CNN
+F1 "Device_C" 25 -100 50 H V L CNN
 F2 "" 38 -150 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -141,11 +141,11 @@ X ~ 2 0 -150 110 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:LED_ALT
+# Device_LED_ALT
 #
-DEF Device:LED_ALT D 0 40 N N 1 F N
+DEF Device_LED_ALT D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "Device:LED_ALT" 0 -100 50 H V C CNN
+F1 "Device_LED_ALT" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -164,11 +164,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device:R
+# Device_R
 #
-DEF Device:R R 0 0 N Y 1 F N
+DEF Device_R R 0 0 N Y 1 F N
 F0 "R" 80 0 50 V V C CNN
-F1 "Device:R" 0 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
 F2 "" -70 0 50 V I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -181,11 +181,11 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Switch:SW_Push
+# Switch_SW_Push
 #
-DEF Switch:SW_Push SW 0 40 N N 1 F N
+DEF Switch_SW_Push SW 0 40 N N 1 F N
 F0 "SW" 50 100 50 H V L CNN
-F1 "Switch:SW_Push" 0 -60 50 H V C CNN
+F1 "Switch_SW_Push" 0 -60 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW
@@ -198,11 +198,11 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# esynr3z_DiodeRectifier:CDBU0520
+# esynr3z_DiodeRectifier_CDBU0520
 #
-DEF esynr3z_DiodeRectifier:CDBU0520 D 0 0 N N 1 F N
+DEF esynr3z_DiodeRectifier_CDBU0520 D 0 0 N N 1 F N
 F0 "D" 0 100 60 H V C CNN
-F1 "esynr3z_DiodeRectifier:CDBU0520" 0 -100 60 H V C CNN
+F1 "esynr3z_DiodeRectifier_CDBU0520" 0 -100 60 H V C CNN
 F2 "esynr3z_Diode:SOD-523F" 200 200 60 H I L CNN
 F3 "http://www.comchiptech.com/cms/UserFiles/CDBU0520-RevA728099.pdf" 200 300 60 H I L CNN
 DRAW
@@ -213,11 +213,11 @@ X A 2 -200 0 150 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# esynr3z_FPGA:ICE5LP4K-SG48
+# esynr3z_FPGA_ICE5LP4K-SG48
 #
-DEF esynr3z_FPGA:ICE5LP4K-SG48 U 0 40 Y Y 1 F N
+DEF esynr3z_FPGA_ICE5LP4K-SG48 U 0 40 Y Y 1 F N
 F0 "U" 900 1950 60 H V L CNN
-F1 "esynr3z_FPGA:ICE5LP4K-SG48" 300 1850 60 H V L CNN
+F1 "esynr3z_FPGA_ICE5LP4K-SG48" 300 1850 60 H V L CNN
 F2 "esynr3z_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5x5mm_ThermalVias" 1500 2250 50 H I C CNN
 F3 "" -650 1000 50 H I C CNN
 F4 "Lattice" 600 2150 50 H I C CNN "Lanufacturer"
@@ -283,11 +283,11 @@ X IOB_16A 9 -1250 -50 200 R 50 50 1 1 B
 ENDDRAW
 ENDDEF
 #
-# esynr3z_LED:CLMVC-FKC-CGJJM569aBB7a343
+# esynr3z_LED_CLMVC-FKC-CGJJM569aBB7a343
 #
-DEF esynr3z_LED:CLMVC-FKC-CGJJM569aBB7a343 D 0 0 Y N 1 F N
+DEF esynr3z_LED_CLMVC-FKC-CGJJM569aBB7a343 D 0 0 Y N 1 F N
 F0 "D" 0 370 50 H V C CNN
-F1 "esynr3z_LED:CLMVC-FKC-CGJJM569aBB7a343" 0 -350 50 H V C CNN
+F1 "esynr3z_LED_CLMVC-FKC-CGJJM569aBB7a343" 0 -350 50 H V C CNN
 F2 "esynr3z_LED:LED_Cree-PLCC4_2x2mm_CW" 800 500 50 H I C CNN
 F3 "" 0 -50 50 H I C CNN
 DRAW
@@ -320,11 +320,11 @@ X RK 4 -200 200 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# esynr3z_MemoryFlash:AT25D011-SSHF
+# esynr3z_MemoryFlash_AT25D011-SSHF
 #
-DEF esynr3z_MemoryFlash:AT25D011-SSHF U 0 40 Y Y 1 F N
+DEF esynr3z_MemoryFlash_AT25D011-SSHF U 0 40 Y Y 1 F N
 F0 "U" -400 300 45 H V L BNN
-F1 "esynr3z_MemoryFlash:AT25D011-SSHF" -250 -350 45 H V L BNN
+F1 "esynr3z_MemoryFlash_AT25D011-SSHF" -250 -350 45 H V L BNN
 F2 "esynr3z_SO:SOIC-8_3.9x4.9mm_P1.27mm" 350 350 20 H I C CNN
 F3 "" -400 300 50 H I C CNN
 DRAW
@@ -340,11 +340,11 @@ X VCC 8 450 150 200 L 40 40 1 1 W
 ENDDRAW
 ENDDEF
 #
-# esynr3z_Oscillator:ECS-2520MV-500-BN-TR
+# esynr3z_Oscillator_ECS-2520MV-500-BN-TR
 #
-DEF esynr3z_Oscillator:ECS-2520MV-500-BN-TR X 0 40 Y Y 1 F N
+DEF esynr3z_Oscillator_ECS-2520MV-500-BN-TR X 0 40 Y Y 1 F N
 F0 "X" -150 300 60 H V R CNN
-F1 "esynr3z_Oscillator:ECS-2520MV-500-BN-TR" -250 200 60 H V L CNN
+F1 "esynr3z_Oscillator_ECS-2520MV-500-BN-TR" -250 200 60 H V L CNN
 F2 "esynr3z_Oscillator:ECS-2520MV_4Pin_2.5x2.0mm" 400 500 60 H I L CNN
 F3 "https://www.ecsxtal.com/store/pdf/ECS-2520MV.pdf" 400 600 60 H I L CNN
 DRAW
@@ -356,11 +356,11 @@ X VDD 4 -450 50 200 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# esynr3z_RegulatorLinear:MIC5355-S4YMME
+# esynr3z_RegulatorLinear_MIC5355-S4YMME
 #
-DEF esynr3z_RegulatorLinear:MIC5355-S4YMME U 0 20 Y Y 1 F N
+DEF esynr3z_RegulatorLinear_MIC5355-S4YMME U 0 20 Y Y 1 F N
 F0 "U" 0 350 50 H V C CNN
-F1 "esynr3z_RegulatorLinear:MIC5355-S4YMME" 0 250 50 H V C CNN
+F1 "esynr3z_RegulatorLinear_MIC5355-S4YMME" 0 250 50 H V C CNN
 F2 "esynr3z_SO:MSOP-8-1EP_3x3mm_P0.65mm_EP2.54x2.8mm_ThermalVias" 1400 -250 50 H I C CNN
 F3 "" 0 350 50 H I C CNN
 DRAW
@@ -377,11 +377,11 @@ X GND 9 0 -300 100 U 50 50 1 1 P N
 ENDDRAW
 ENDDEF
 #
-# power:+1V2
+# power_+1V2
 #
-DEF power:+1V2 #PWR 0 0 Y Y 1 F P
+DEF power_+1V2 #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+1V2" 0 140 50 H V C CNN
+F1 "power_+1V2" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -392,26 +392,11 @@ X +1V2 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:+3.3V
+# power_+3.3V
 #
-DEF power:+3.3V #PWR 0 0 Y Y 1 F P
+DEF power_+3.3V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+3.3V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +3V3 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power:+3V3
-#
-DEF power:+3V3 #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+3V3" 0 140 50 H V C CNN
+F1 "power_+3.3V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 ALIAS +3.3V
@@ -423,11 +408,26 @@ X +3V3 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:+5V
+# power_+3V3
 #
-DEF power:+5V #PWR 0 0 Y Y 1 F P
+DEF power_+3V3 #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power:+5V" 0 140 50 H V C CNN
+F1 "power_+3V3" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +3V3 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_+5V
+#
+DEF power_+5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
@@ -438,11 +438,11 @@ X +5V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# power:GND
+# power_GND
 #
-DEF power:GND #PWR 0 0 Y Y 1 F P
+DEF power_GND #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power:GND" 0 -150 50 H V C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
