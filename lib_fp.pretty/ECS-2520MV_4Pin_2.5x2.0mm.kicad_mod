@@ -29,7 +29,7 @@
   (pad 2 smd rect (at 0.975 0.775) (size 1 0.9) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at 0.975 -0.775) (size 1 0.9) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd rect (at -0.975 -0.775) (size 1 0.9) (layers F.Cu F.Paste F.Mask))
-  (model ${KICAD_ESYNR3Z_3DMOD_DIR}/esynr3z_Oscillator.3dshapes/ECS-2520MV_4Pin_2.5x2.0mm.STEP
+  (model ${KIPRJMOD}/3d_models/ECS-2520MV_4Pin_2.5x2.0mm.STEP
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

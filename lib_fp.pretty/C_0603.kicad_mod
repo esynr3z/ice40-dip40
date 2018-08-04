@@ -25,7 +25,7 @@
   (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.1))
   (pad 2 smd rect (at 0.799999 0) (size 0.95 1) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -0.799999 0) (size 0.95 1) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0603_1608Metric.wrl
+  (model ${KIPRJMOD}/3d_models/C_0603_1608Metric.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

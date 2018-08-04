@@ -94,7 +94,7 @@
   (pad 49 thru_hole circle (at -0.5 1.5) (size 0.6 0.6) (drill 0.3) (layers *.Cu *.Mask))
   (pad 49 thru_hole circle (at -1.5 1.5) (size 0.6 0.6) (drill 0.3) (layers *.Cu *.Mask))
   (pad 49 smd rect (at 0 0) (size 5 5) (layers B.Cu B.Mask))
-  (model ${KISYS3DMOD}/Package_DFN_QFN.3dshapes/QFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm.wrl
+  (model ${KIPRJMOD}/3d_models/QFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

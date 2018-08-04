@@ -29,7 +29,7 @@
   (pad 2 smd rect (at 0.75 -0.55) (size 1 0.8) (layers F.Cu F.Paste F.Mask))
   (pad 3 smd rect (at 0.75 0.55) (size 1 0.8) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd rect (at -0.75 0.55) (size 1 0.8) (layers F.Cu F.Paste F.Mask))
-  (model ${KICAD_ESYNR3Z_3DMOD_DIR}/esynr3z_LED.3dshapes/LED_Cree-PLCC4_2x2mm_CW.step
+  (model ${KIPRJMOD}/3d_models/LED_Cree-PLCC4_2x2mm_CW.step
     (offset (xyz -0.4 -0.75 0))
     (scale (xyz 0.65 0.55 0.55))
     (rotate (xyz -90 0 90))
