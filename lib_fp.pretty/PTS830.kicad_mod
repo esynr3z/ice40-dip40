@@ -33,7 +33,7 @@
   (pad 1 smd rect (at 1.6 -0.825) (size 1.05 0.75) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -1.6 0.825) (size 1.05 0.75) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1.6 0.825) (size 1.05 0.75) (layers F.Cu F.Paste F.Mask))
-  (model ${KICAD_USER_3DMOD_DIR}/esynr3z_Switch.3dshapes/PTS830GM140SMTRLFS.stp
+  (model ${KICAD_ESYNR3Z_3DMOD_DIR}/esynr3z_Switch.3dshapes/PTS830GM140SMTRLFS.stp
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

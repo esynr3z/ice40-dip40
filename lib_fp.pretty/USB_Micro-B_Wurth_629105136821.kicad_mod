@@ -46,7 +46,7 @@
   (pad 6 smd rect (at 3.95 -1.45) (size 1.9 1.9) (layers F.Cu F.Paste F.Mask))
   (pad 6 smd rect (at -1.2 -1.45) (size 1.9 1.9) (layers F.Cu F.Paste F.Mask))
   (pad 6 smd rect (at -3.95 -1.45) (size 1.9 1.9) (layers F.Cu F.Paste F.Mask))
-  (model ${KICAD_USER_3DMOD_DIR}/esynr3z_ConnectorUSB.3dshapes/USB_Micro-B_Wurth_629105136821.stp
+  (model ${KICAD_ESYNR3Z_3DMOD_DIR}/esynr3z_ConnectorUSB.3dshapes/USB_Micro-B_Wurth_629105136821.stp
     (offset (xyz 0 1.5 1))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 180 0))
