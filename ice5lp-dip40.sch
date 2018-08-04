@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L esynr3z_FPGA:ICE5LP4K-SG48 U3
+L ice5lp-dip40:esynr3z_FPGA_ICE5LP4K-SG48 U3
 U 1 1 5B44F1FF
 P 6350 4200
 F 0 "U3" H 7350 6200 60  0000 C CNN
@@ -27,7 +27,7 @@ F 4 "Lattice" H 6950 6350 50  0001 C CNN "Lanufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0101
+L ice5lp-dip40:power_GND #PWR0101
 U 1 1 5B44F4B5
 P 6350 6200
 F 0 "#PWR0101" H 6350 5950 50  0001 C CNN
@@ -51,7 +51,7 @@ VCC_CORE
 Wire Wire Line
 	6150 2150 6150 2200
 $Comp
-L power:+3.3V #PWR0105
+L ice5lp-dip40:power_+3.3V #PWR0105
 U 1 1 5B454563
 P 6150 1550
 F 0 "#PWR0105" H 6150 1400 50  0001 C CNN
@@ -64,7 +64,7 @@ $EndComp
 Wire Wire Line
 	6150 1550 6150 1650
 $Comp
-L power:+1V2 #PWR0106
+L ice5lp-dip40:power_+1V2 #PWR0106
 U 1 1 5B4554F9
 P 750 6850
 F 0 "#PWR0106" H 750 6700 50  0001 C CNN
@@ -75,7 +75,7 @@ F 3 "" H 750 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C1
+L ice5lp-dip40:Device_C C1
 U 1 1 5B4554FF
 P 750 7150
 F 0 "C1" H 865 7196 50  0000 L CNN
@@ -86,7 +86,7 @@ F 3 "~" H 750 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C2
+L ice5lp-dip40:Device_C C2
 U 1 1 5B455506
 P 1100 7150
 F 0 "C2" H 1215 7196 50  0000 L CNN
@@ -97,7 +97,7 @@ F 3 "~" H 1100 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0107
+L ice5lp-dip40:power_GND #PWR0107
 U 1 1 5B455514
 P 750 7350
 F 0 "#PWR0107" H 750 7100 50  0001 C CNN
@@ -108,7 +108,7 @@ F 3 "" H 750 7350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0108
+L ice5lp-dip40:power_GND #PWR0108
 U 1 1 5B45551A
 P 1100 7350
 F 0 "#PWR0108" H 1100 7100 50  0001 C CNN
@@ -137,7 +137,7 @@ Connection ~ 1100 6950
 Wire Wire Line
 	750  6850 750  6950
 $Comp
-L Device:C C4
+L ice5lp-dip40:Device_C C4
 U 1 1 5B4567EE
 P 1500 7150
 F 0 "C4" H 1615 7196 50  0000 L CNN
@@ -148,7 +148,7 @@ F 3 "~" H 1500 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0109
+L ice5lp-dip40:power_GND #PWR0109
 U 1 1 5B4567F5
 P 1500 7350
 F 0 "#PWR0109" H 1500 7100 50  0001 C CNN
@@ -178,7 +178,7 @@ VCC_IO
 Wire Wire Line
 	5100 3150 5000 3150
 $Comp
-L Device:C C15
+L ice5lp-dip40:Device_C C15
 U 1 1 5B4587BE
 P 5650 1950
 F 0 "C15" H 5400 2000 50  0000 L CNN
@@ -189,7 +189,7 @@ F 3 "~" H 5650 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0110
+L ice5lp-dip40:power_GND #PWR0110
 U 1 1 5B4587C5
 P 5650 2150
 F 0 "#PWR0110" H 5650 1900 50  0001 C CNN
@@ -209,7 +209,7 @@ Connection ~ 6150 1650
 Wire Wire Line
 	6150 1650 6150 1750
 $Comp
-L Device:C C9
+L ice5lp-dip40:Device_C C9
 U 1 1 5B45A541
 P 2200 7150
 F 0 "C9" H 2315 7196 50  0000 L CNN
@@ -220,7 +220,7 @@ F 3 "~" H 2200 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C11
+L ice5lp-dip40:Device_C C11
 U 1 1 5B45A548
 P 2550 7150
 F 0 "C11" H 2665 7196 50  0000 L CNN
@@ -231,7 +231,7 @@ F 3 "~" H 2550 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0111
+L ice5lp-dip40:power_GND #PWR0111
 U 1 1 5B45A54F
 P 2200 7350
 F 0 "#PWR0111" H 2200 7100 50  0001 C CNN
@@ -242,7 +242,7 @@ F 3 "" H 2200 7350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0112
+L ice5lp-dip40:power_GND #PWR0112
 U 1 1 5B45A555
 P 2550 7350
 F 0 "#PWR0112" H 2550 7100 50  0001 C CNN
@@ -266,7 +266,7 @@ Wire Wire Line
 Wire Wire Line
 	2200 6850 2200 6950
 $Comp
-L power:+3.3V #PWR0113
+L ice5lp-dip40:power_+3.3V #PWR0113
 U 1 1 5B45B996
 P 2200 6850
 F 0 "#PWR0113" H 2200 6700 50  0001 C CNN
@@ -277,7 +277,7 @@ F 3 "" H 2200 6850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C12
+L ice5lp-dip40:Device_C C12
 U 1 1 5B45BA63
 P 2950 7150
 F 0 "C12" H 3065 7196 50  0000 L CNN
@@ -288,7 +288,7 @@ F 3 "~" H 2950 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C13
+L ice5lp-dip40:Device_C C13
 U 1 1 5B45BA6A
 P 3350 7150
 F 0 "C13" H 3465 7196 50  0000 L CNN
@@ -299,7 +299,7 @@ F 3 "~" H 3350 7150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0114
+L ice5lp-dip40:power_GND #PWR0114
 U 1 1 5B45BA71
 P 2950 7350
 F 0 "#PWR0114" H 2950 7100 50  0001 C CNN
@@ -310,7 +310,7 @@ F 3 "" H 2950 7350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0115
+L ice5lp-dip40:power_GND #PWR0115
 U 1 1 5B45BA77
 P 3350 7350
 F 0 "#PWR0115" H 3350 7100 50  0001 C CNN
@@ -334,7 +334,7 @@ Connection ~ 3350 6950
 Wire Wire Line
 	3350 6950 3550 6950
 $Comp
-L Device:LED_ALT D3
+L ice5lp-dip40:Device_LED_ALT D3
 U 1 1 5B462077
 P 4150 2950
 F 0 "D3" V 4188 2832 50  0000 R CNN
@@ -345,7 +345,7 @@ F 3 "~" H 4150 2950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0120
+L ice5lp-dip40:power_GND #PWR0120
 U 1 1 5B464D81
 P 4150 3250
 F 0 "#PWR0120" H 4150 3000 50  0001 C CNN
@@ -356,7 +356,7 @@ F 3 "" H 4150 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R10
+L ice5lp-dip40:Device_R R10
 U 1 1 5B464E38
 P 4150 2550
 F 0 "R10" H 4220 2596 50  0000 L CNN
@@ -367,7 +367,7 @@ F 3 "~" H 4150 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR0121
+L ice5lp-dip40:power_+3.3V #PWR0121
 U 1 1 5B464EF7
 P 4150 2350
 F 0 "#PWR0121" H 4150 2200 50  0001 C CNN
@@ -389,7 +389,7 @@ Connection ~ 4150 2750
 Wire Wire Line
 	4150 2750 4150 2700
 $Comp
-L Switch:SW_Push SW1
+L ice5lp-dip40:Switch_SW_Push SW1
 U 1 1 5B46ACD5
 P 4500 5400
 F 0 "SW1" V 4550 5650 50  0000 R CNN
@@ -400,7 +400,7 @@ F 3 "" H 4500 5600 50  0001 C CNN
 	0    1    -1   0   
 $EndComp
 $Comp
-L Device:R R6
+L ice5lp-dip40:Device_R R6
 U 1 1 5B46ADBE
 P 4150 4950
 F 0 "R6" H 4220 4996 50  0000 L CNN
@@ -411,7 +411,7 @@ F 3 "~" H 4150 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C17
+L ice5lp-dip40:Device_C C17
 U 1 1 5B46AE3C
 P 4150 5350
 F 0 "C17" H 4265 5396 50  0000 L CNN
@@ -426,7 +426,7 @@ Wire Wire Line
 Wire Wire Line
 	4150 5200 4150 5150
 $Comp
-L power:GND #PWR0122
+L ice5lp-dip40:power_GND #PWR0122
 U 1 1 5B4710C4
 P 4500 5650
 F 0 "#PWR0122" H 4500 5400 50  0001 C CNN
@@ -439,7 +439,7 @@ $EndComp
 Wire Wire Line
 	4500 5650 4500 5600
 $Comp
-L power:GND #PWR0123
+L ice5lp-dip40:power_GND #PWR0123
 U 1 1 5B4729E2
 P 4150 5650
 F 0 "#PWR0123" H 4150 5400 50  0001 C CNN
@@ -453,7 +453,7 @@ Wire Wire Line
 	4150 5650 4150 5500
 Connection ~ 4150 5150
 $Comp
-L power:+3.3V #PWR0124
+L ice5lp-dip40:power_+3.3V #PWR0124
 U 1 1 5B475840
 P 4150 4750
 F 0 "#PWR0124" H 4150 4600 50  0001 C CNN
@@ -466,7 +466,7 @@ $EndComp
 Wire Wire Line
 	4150 4750 4150 4800
 $Comp
-L power:+3.3V #PWR0125
+L ice5lp-dip40:power_+3.3V #PWR0125
 U 1 1 5B47CC78
 P 9300 3600
 F 0 "#PWR0125" H 9300 3450 50  0001 C CNN
@@ -493,7 +493,7 @@ Wire Wire Line
 Wire Wire Line
 	7700 5600 7600 5600
 $Comp
-L Device:R R7
+L ice5lp-dip40:Device_R R7
 U 1 1 5B483E21
 P 10000 3500
 F 0 "R7" V 10100 3600 50  0000 C CNN
@@ -504,7 +504,7 @@ F 3 "~" H 10000 3500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R8
+L ice5lp-dip40:Device_R R8
 U 1 1 5B483F3E
 P 10000 3700
 F 0 "R8" V 9900 3600 50  0000 C CNN
@@ -515,7 +515,7 @@ F 3 "~" H 10000 3700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R9
+L ice5lp-dip40:Device_R R9
 U 1 1 5B4840B8
 P 10000 3900
 F 0 "R9" V 9900 3800 50  0000 C CNN
@@ -558,7 +558,7 @@ Wire Wire Line
 Wire Wire Line
 	5100 3350 5000 3350
 $Comp
-L esynr3z_RegulatorLinear:MIC5355-S4YMME U2
+L ice5lp-dip40:esynr3z_RegulatorLinear_MIC5355-S4YMME U2
 U 1 1 5B4A1441
 P 1950 5650
 F 0 "U2" H 1950 6028 50  0000 C CNN
@@ -569,7 +569,7 @@ F 3 "lib_fp://ww1.microchip.com/downloads/en/DeviceDoc/mic5355_6.pdf" H 1950 600
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0126
+L ice5lp-dip40:power_+5V #PWR0126
 U 1 1 5B4A1CC4
 P 1100 5350
 F 0 "#PWR0126" H 1100 5200 50  0001 C CNN
@@ -590,7 +590,7 @@ Wire Wire Line
 Wire Wire Line
 	1400 5750 1400 5650
 $Comp
-L power:GND #PWR0127
+L ice5lp-dip40:power_GND #PWR0127
 U 1 1 5B4A8C0B
 P 1950 6200
 F 0 "#PWR0127" H 1950 5950 50  0001 C CNN
@@ -603,7 +603,7 @@ $EndComp
 Wire Wire Line
 	1950 5950 1950 6200
 $Comp
-L power:+3.3V #PWR0128
+L ice5lp-dip40:power_+3.3V #PWR0128
 U 1 1 5B4AB480
 P 2550 5550
 F 0 "#PWR0128" H 2550 5400 50  0001 C CNN
@@ -614,7 +614,7 @@ F 3 "" H 2550 5550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+1V2 #PWR0129
+L ice5lp-dip40:power_+1V2 #PWR0129
 U 1 1 5B4AB4F4
 P 2950 5550
 F 0 "#PWR0129" H 2950 5400 50  0001 C CNN
@@ -631,7 +631,7 @@ Wire Wire Line
 Wire Wire Line
 	2350 5750 2950 5750
 $Comp
-L Device:C C3
+L ice5lp-dip40:Device_C C3
 U 1 1 5B4B0D05
 P 1100 6000
 F 0 "C3" H 1215 6046 50  0000 L CNN
@@ -642,7 +642,7 @@ F 3 "~" H 1100 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0130
+L ice5lp-dip40:power_GND #PWR0130
 U 1 1 5B4B0D0C
 P 1100 6200
 F 0 "#PWR0130" H 1100 5950 50  0001 C CNN
@@ -664,7 +664,7 @@ Connection ~ 1400 5550
 Wire Wire Line
 	1400 5550 1100 5550
 $Comp
-L Device:C C7
+L ice5lp-dip40:Device_C C7
 U 1 1 5B4C72C3
 P 2550 6000
 F 0 "C7" H 2665 6046 50  0000 L CNN
@@ -675,7 +675,7 @@ F 3 "~" H 2550 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0131
+L ice5lp-dip40:power_GND #PWR0131
 U 1 1 5B4C72CA
 P 2550 6200
 F 0 "#PWR0131" H 2550 5950 50  0001 C CNN
@@ -688,7 +688,7 @@ $EndComp
 Wire Wire Line
 	2550 6200 2550 6150
 $Comp
-L Device:C C8
+L ice5lp-dip40:Device_C C8
 U 1 1 5B4D6A19
 P 2950 6000
 F 0 "C8" H 3065 6046 50  0000 L CNN
@@ -699,7 +699,7 @@ F 3 "~" H 2950 6000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0132
+L ice5lp-dip40:power_GND #PWR0132
 U 1 1 5B4D6A20
 P 2950 6200
 F 0 "#PWR0132" H 2950 5950 50  0001 C CNN
@@ -720,7 +720,7 @@ Wire Wire Line
 	2950 5750 2950 5850
 Connection ~ 2950 5750
 $Comp
-L esynr3z_MemoryFlash:AT25D011-SSHF U1
+L ice5lp-dip40:esynr3z_MemoryFlash_AT25D011-SSHF U1
 U 1 1 5B52E310
 P 1950 1850
 F 0 "U1" H 1950 2254 45  0000 C CNN
@@ -731,7 +731,7 @@ F 3 "" H 1550 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0133
+L ice5lp-dip40:power_GND #PWR0133
 U 1 1 5B52E5BD
 P 1450 2050
 F 0 "#PWR0133" H 1450 1800 50  0001 C CNN
@@ -746,7 +746,7 @@ Wire Wire Line
 Wire Wire Line
 	1450 2000 1500 2000
 $Comp
-L power:+3.3V #PWR0134
+L ice5lp-dip40:power_+3.3V #PWR0134
 U 1 1 5B53172E
 P 3250 1150
 F 0 "#PWR0134" H 3250 1000 50  0001 C CNN
@@ -775,7 +775,7 @@ ICE_SCK
 Wire Wire Line
 	3000 1900 2900 1900
 $Comp
-L Device:C C10
+L ice5lp-dip40:Device_C C10
 U 1 1 5B545694
 P 3250 1400
 F 0 "C10" H 3400 1450 50  0000 L CNN
@@ -786,7 +786,7 @@ F 3 "~" H 3250 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0135
+L ice5lp-dip40:power_GND #PWR0135
 U 1 1 5B54569B
 P 3250 1600
 F 0 "#PWR0135" H 3250 1350 50  0001 C CNN
@@ -799,7 +799,7 @@ $EndComp
 Wire Wire Line
 	3250 1600 3250 1550
 $Comp
-L Device:R R2
+L ice5lp-dip40:Device_R R2
 U 1 1 5B54CEBB
 P 1450 1400
 F 0 "R2" H 1520 1446 50  0000 L CNN
@@ -810,7 +810,7 @@ F 3 "~" H 1450 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R4
+L ice5lp-dip40:Device_R R4
 U 1 1 5B5506B7
 P 2600 1400
 F 0 "R4" H 2670 1446 50  0000 L CNN
@@ -821,7 +821,7 @@ F 3 "~" H 2600 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R5
+L ice5lp-dip40:Device_R R5
 U 1 1 5B553EB5
 P 2900 1400
 F 0 "R5" H 2970 1446 50  0000 L CNN
@@ -832,7 +832,7 @@ F 3 "~" H 2900 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R1
+L ice5lp-dip40:Device_R R1
 U 1 1 5B5576EB
 P 1150 1400
 F 0 "R1" H 1220 1446 50  0000 L CNN
@@ -890,7 +890,7 @@ Wire Wire Line
 	3250 1150 3250 1200
 Connection ~ 3250 1200
 $Comp
-L Connector_Generic:Conn_02x04_Odd_Even J1
+L ice5lp-dip40:Connector_Generic_Conn_02x04_Odd_Even J1
 U 1 1 5B491DDE
 P 2100 2600
 F 0 "J1" H 2150 2800 50  0000 C CNN
@@ -901,7 +901,7 @@ F 3 "~" H 2100 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR0136
+L ice5lp-dip40:power_+3V3 #PWR0136
 U 1 1 5B49328F
 P 1850 2450
 F 0 "#PWR0136" H 1850 2300 50  0001 C CNN
@@ -912,7 +912,7 @@ F 3 "" H 1850 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0137
+L ice5lp-dip40:power_GND #PWR0137
 U 1 1 5B4935B9
 P 2450 2450
 F 0 "#PWR0137" H 2450 2200 50  0001 C CNN
@@ -1097,7 +1097,7 @@ Wire Wire Line
 Wire Wire Line
 	7700 5400 7600 5400
 $Comp
-L Connector_Generic:Conn_01x20 J2
+L ice5lp-dip40:Connector_Generic_Conn_01x20 J2
 U 1 1 5B62A1DE
 P 8900 5150
 F 0 "J2" H 8820 6267 50  0000 C CNN
@@ -1108,7 +1108,7 @@ F 3 "~" H 8900 5150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x20 J3
+L ice5lp-dip40:Connector_Generic_Conn_01x20 J3
 U 1 1 5B62A2B7
 P 10000 5150
 F 0 "J3" H 9920 6267 50  0000 C CNN
@@ -1129,7 +1129,7 @@ Wire Notes Line width 20
 Text Notes 8400 950  0    197  ~ 0
 IO
 $Comp
-L power:GND #PWR0138
+L ice5lp-dip40:power_GND #PWR0138
 U 1 1 5B6F631A
 P 9700 6150
 F 0 "#PWR0138" H 9700 5900 50  0001 C CNN
@@ -1140,7 +1140,7 @@ F 3 "" H 9700 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0139
+L ice5lp-dip40:power_+5V #PWR0139
 U 1 1 5B70EB47
 P 9700 6050
 F 0 "#PWR0139" H 9700 5900 50  0001 C CNN
@@ -1155,7 +1155,7 @@ Wire Wire Line
 Wire Wire Line
 	9700 6050 9100 6050
 $Comp
-L power:GND #PWR0140
+L ice5lp-dip40:power_GND #PWR0140
 U 1 1 5B71EE8C
 P 10800 6150
 F 0 "#PWR0140" H 10800 5900 50  0001 C CNN
@@ -1166,7 +1166,7 @@ F 3 "" H 10800 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0141
+L ice5lp-dip40:power_+5V #PWR0141
 U 1 1 5B71EE92
 P 10800 6050
 F 0 "#PWR0141" H 10800 5900 50  0001 C CNN
@@ -1181,7 +1181,7 @@ Wire Wire Line
 Wire Wire Line
 	10800 6050 10200 6050
 $Comp
-L power:GND #PWR0142
+L ice5lp-dip40:power_GND #PWR0142
 U 1 1 5B72752F
 P 9700 4250
 F 0 "#PWR0142" H 9700 4000 50  0001 C CNN
@@ -1194,7 +1194,7 @@ $EndComp
 Wire Wire Line
 	9100 4250 9700 4250
 $Comp
-L power:GND #PWR0143
+L ice5lp-dip40:power_GND #PWR0143
 U 1 1 5B72FA0D
 P 10800 4250
 F 0 "#PWR0143" H 10800 4000 50  0001 C CNN
@@ -1273,7 +1273,7 @@ ICE_BTN
 Wire Wire Line
 	9200 5950 9100 5950
 $Comp
-L esynr3z_LED:CLMVC-FKC-CGJJM569aBB7a343 D2
+L ice5lp-dip40:esynr3z_LED_CLMVC-FKC-CGJJM569aBB7a343 D2
 U 1 1 5B843243
 P 9600 3700
 F 0 "D2" H 9600 4197 50  0000 C CNN
@@ -1284,7 +1284,7 @@ F 3 "~" H 9600 3650 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L esynr3z_DiodeRectifier:CDBU0520 D1
+L ice5lp-dip40:esynr3z_DiodeRectifier_CDBU0520 D1
 U 1 1 5B847612
 P 6150 1950
 F 0 "D1" V 5900 1800 60  0000 L CNN
@@ -1295,7 +1295,7 @@ F 3 "lib_fp://www.comchiptech.com/cms/UserFiles/CDBU0520-RevA728099.pdf" H 6350 
 	0    1    1    0   
 $EndComp
 $Comp
-L esynr3z_Oscillator:ECS-2520MV-500-BN-TR X1
+L ice5lp-dip40:esynr3z_Oscillator_ECS-2520MV-500-BN-TR X1
 U 1 1 5B84C298
 P 9950 1200
 F 0 "X1" H 9950 1537 60  0000 C CNN
@@ -1310,7 +1310,7 @@ Wire Wire Line
 Text GLabel 5000 4850 0    50   Input ~ 0
 ICE_CLK
 $Comp
-L power:+3.3V #PWR0144
+L ice5lp-dip40:power_+3.3V #PWR0144
 U 1 1 5B95AFA0
 P 9450 1100
 F 0 "#PWR0144" H 9450 950 50  0001 C CNN
@@ -1330,7 +1330,7 @@ Wire Wire Line
 	9450 1250 9450 1150
 Connection ~ 9450 1150
 $Comp
-L Device:C C18
+L ice5lp-dip40:Device_C C18
 U 1 1 5B979CC8
 P 9300 1300
 F 0 "C18" H 9050 1350 50  0000 L CNN
@@ -1341,7 +1341,7 @@ F 3 "~" H 9300 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0145
+L ice5lp-dip40:power_GND #PWR0145
 U 1 1 5B979CCF
 P 9300 1450
 F 0 "#PWR0145" H 9300 1200 50  0001 C CNN
@@ -1354,7 +1354,7 @@ $EndComp
 Wire Wire Line
 	9300 1150 9450 1150
 $Comp
-L power:GND #PWR0146
+L ice5lp-dip40:power_GND #PWR0146
 U 1 1 5B98F158
 P 10450 1450
 F 0 "#PWR0146" H 10450 1200 50  0001 C CNN
@@ -1373,7 +1373,7 @@ ICE_CLK
 Wire Wire Line
 	10500 1150 10400 1150
 $Comp
-L Switch:SW_Push SW2
+L ice5lp-dip40:Switch_SW_Push SW2
 U 1 1 5B9FD61D
 P 8800 2550
 F 0 "SW2" V 8850 2800 50  0000 R CNN
@@ -1384,7 +1384,7 @@ F 3 "" H 8800 2750 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R12
+L ice5lp-dip40:Device_R R12
 U 1 1 5B9FD624
 P 8800 2100
 F 0 "R12" H 8870 2146 50  0000 L CNN
@@ -1395,7 +1395,7 @@ F 3 "~" H 8800 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C19
+L ice5lp-dip40:Device_C C19
 U 1 1 5B9FD62B
 P 9100 2500
 F 0 "C19" H 9215 2546 50  0000 L CNN
@@ -1415,7 +1415,7 @@ Connection ~ 8800 2300
 Wire Wire Line
 	8800 2300 8800 2350
 $Comp
-L power:GND #PWR0147
+L ice5lp-dip40:power_GND #PWR0147
 U 1 1 5B9FD637
 P 8800 2800
 F 0 "#PWR0147" H 8800 2550 50  0001 C CNN
@@ -1428,7 +1428,7 @@ $EndComp
 Wire Wire Line
 	8800 2800 8800 2750
 $Comp
-L power:GND #PWR0148
+L ice5lp-dip40:power_GND #PWR0148
 U 1 1 5B9FD63E
 P 9100 2800
 F 0 "#PWR0148" H 9100 2550 50  0001 C CNN
@@ -1446,7 +1446,7 @@ Wire Wire Line
 	9200 2300 9100 2300
 Connection ~ 9100 2300
 $Comp
-L power:+3.3V #PWR0149
+L ice5lp-dip40:power_+3.3V #PWR0149
 U 1 1 5B9FD648
 P 8800 1900
 F 0 "#PWR0149" H 8800 1750 50  0001 C CNN
@@ -1459,7 +1459,7 @@ $EndComp
 Wire Wire Line
 	8800 1900 8800 1950
 $Comp
-L Device:LED_ALT D4
+L ice5lp-dip40:Device_LED_ALT D4
 U 1 1 5BA2D2CB
 P 2650 4550
 F 0 "D4" V 2688 4432 50  0000 R CNN
@@ -1470,7 +1470,7 @@ F 3 "~" H 2650 4550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0150
+L ice5lp-dip40:power_GND #PWR0150
 U 1 1 5BA2D2D2
 P 2650 4850
 F 0 "#PWR0150" H 2650 4600 50  0001 C CNN
@@ -1481,7 +1481,7 @@ F 3 "" H 2650 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R11
+L ice5lp-dip40:Device_R R11
 U 1 1 5BA2D2D8
 P 2300 4150
 F 0 "R11" V 2200 4000 50  0000 L CNN
@@ -1494,7 +1494,7 @@ $EndComp
 Wire Wire Line
 	2650 4850 2650 4700
 $Comp
-L Device:LED_ALT D5
+L ice5lp-dip40:Device_LED_ALT D5
 U 1 1 5BA3AE8B
 P 10350 2600
 F 0 "D5" V 10388 2482 50  0000 R CNN
@@ -1505,7 +1505,7 @@ F 3 "~" H 10350 2600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GND #PWR0152
+L ice5lp-dip40:power_GND #PWR0152
 U 1 1 5BA3AE92
 P 10350 2800
 F 0 "#PWR0152" H 10350 2550 50  0001 C CNN
@@ -1516,7 +1516,7 @@ F 3 "" H 10350 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R13
+L ice5lp-dip40:Device_R R13
 U 1 1 5BA3AE98
 P 10350 2250
 F 0 "R13" H 10400 2300 50  0000 L CNN
@@ -1537,7 +1537,7 @@ Wire Wire Line
 Wire Wire Line
 	10350 2050 10350 2100
 $Comp
-L power:GND #PWR0151
+L ice5lp-dip40:power_GND #PWR0151
 U 1 1 5BB52FA7
 P 1400 4850
 F 0 "#PWR0151" H 1400 4600 50  0001 C CNN
@@ -1548,7 +1548,7 @@ F 3 "" H 1400 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR0153
+L ice5lp-dip40:power_+5V #PWR0153
 U 1 1 5BB7791B
 P 1950 4100
 F 0 "#PWR0153" H 1950 3950 50  0001 C CNN
@@ -1563,7 +1563,7 @@ Wire Wire Line
 Wire Wire Line
 	1950 4150 1950 4100
 $Comp
-L Device:C C20
+L ice5lp-dip40:Device_C C20
 U 1 1 5BB9F4F5
 P 1950 4500
 F 0 "C20" H 2065 4546 50  0000 L CNN
@@ -1574,7 +1574,7 @@ F 3 "~" H 1950 4500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0154
+L ice5lp-dip40:power_GND #PWR0154
 U 1 1 5BB9F4FC
 P 1950 4850
 F 0 "#PWR0154" H 1950 4600 50  0001 C CNN
@@ -1596,7 +1596,7 @@ Wire Wire Line
 Wire Wire Line
 	2650 4150 2650 4400
 $Comp
-L Connector:USB_B_Micro J4
+L ice5lp-dip40:Connector_USB_B_Micro J4
 U 1 1 5BB09EED
 P 1400 4350
 F 0 "J4" H 1455 4817 50  0000 C CNN
