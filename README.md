@@ -1,4 +1,4 @@
-# iCE40LP breakout board
+# iCE5LP (iCE40 Ultra) breakout board
 
 ![PCB](images/pcb.png)
 
