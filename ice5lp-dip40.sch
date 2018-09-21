@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:ice5lp-dip40-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -22,7 +21,6 @@ F 0 "U3" H 7350 6200 60  0000 C CNN
 F 1 "ICE5LP4K-SG48" H 7050 6100 60  0000 C CNN
 F 2 "lib_fp:QFN-48-1EP_7x7mm_P0.5mm_EP5x5mm_ThermalVias" H 7850 6450 50  0001 C CNN
 F 3 "" H 5700 5200 50  0001 C CNN
-F 4 "Lattice" H 6950 6350 50  0001 C CNN "Lanufacturer"
 	1    6350 4200
 	1    0    0    -1  
 $EndComp
@@ -719,17 +717,6 @@ Connection ~ 2550 5650
 Wire Wire Line
 	2950 5750 2950 5850
 Connection ~ 2950 5750
-$Comp
-L ice5lp-dip40:esynr3z_MemoryFlash_AT25D011-SSHF U1
-U 1 1 5B52E310
-P 1950 1850
-F 0 "U1" H 1950 2254 45  0000 C CNN
-F 1 "AT25D011-SSHF" H 1950 2170 45  0000 C CNN
-F 2 "lib_fp:SOIC-8_3.9x4.9mm_P1.27mm" H 2300 2200 20  0001 C CNN
-F 3 "" H 1550 2150 50  0001 C CNN
-	1    1950 1850
-	1    0    0    -1  
-$EndComp
 $Comp
 L ice5lp-dip40:power_GND #PWR0133
 U 1 1 5B52E5BD
@@ -1717,4 +1704,15 @@ Wire Wire Line
 Connection ~ 4500 5150
 Text Label 4500 4050 0    50   ~ 0
 CRESET
+$Comp
+L ice5lp-dip40:esynr3z_MemoryFlash_AT25D081-SSHD U1
+U 1 1 5BA61AF9
+P 1950 1850
+F 0 "U1" H 1950 2254 45  0000 C CNN
+F 1 "AT25D081-SSHD" H 1950 2170 45  0000 C CNN
+F 2 "lib_fp:SOIC-8_3.9x4.9mm_P1.27mm" H 2300 2200 20  0001 C CNN
+F 3 "https://www.adestotech.com/wp-content/uploads/DS-AT25SF081_045.pdf" H 2500 2300 50  0001 C CNN
+	1    1950 1850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
