@@ -1775,4 +1775,5 @@ Text GLabel 9200 5850 2    50   Input ~ 0
 VCC_IO
 Text GLabel 9200 5750 2    50   Input ~ 0
 VCC_CORE
+NoConn ~ 1700 4550
 $EndSCHEMATC
