@@ -10,13 +10,18 @@
   )
 
   (page A4)
+  (title_block
+    (title "Lattice iCE5LP4K DIP40 breakout board")
+    (rev A)
+  )
+
   (layers
     (0 F.Cu signal)
-    (1 In1.VCC.Cu power)
-    (2 In2.GND.Cu power)
+    (1 In1.VCC.Cu power hide)
+    (2 In2.GND.Cu power hide)
     (31 B.Cu mixed)
     (36 B.SilkS user)
-    (37 F.SilkS user hide)
+    (37 F.SilkS user)
     (38 B.Mask user hide)
     (39 F.Mask user hide)
     (40 Dwgs.User user hide)
@@ -3378,7 +3383,7 @@
     (fp_text reference X1 (at 0 2.55 315) (layer B.SilkS) hide
       (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value ECS-2520MV-500-BN-TR (at 0 -1.436841 315) (layer B.Fab)
+    (fp_text value ECS-2520MV-120-BN-TR (at 0 -1.436841 315) (layer B.Fab)
       (effects (font (size 0.5 0.5) (thickness 0.125)) (justify mirror))
     )
     (fp_text user %R (at 0 0 315) (layer B.Fab)
@@ -3413,7 +3418,7 @@
     )
   )
 
-  (gr_text "ice5lp-dip40 v1.0" (at 195.58 58.547) (layer B.SilkS) (tstamp 5B5A18DF)
+  (gr_text "ice5lp-dip40 rev.A" (at 195.58 58.547) (layer B.SilkS) (tstamp 5B5A18DF)
     (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror))
   )
   (gr_text esynr3z (at 198.501 96.52) (layer B.SilkS)

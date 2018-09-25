@@ -340,11 +340,11 @@ X RK 4 -200 200 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# esynr3z_Oscillator_ECS-2520MV-500-BN-TR
+# esynr3z_Oscillator_ECS-2520MV-XXX
 #
-DEF esynr3z_Oscillator_ECS-2520MV-500-BN-TR X 0 40 Y Y 1 F N
+DEF esynr3z_Oscillator_ECS-2520MV-XXX X 0 40 Y Y 1 F N
 F0 "X" -150 300 60 H V R CNN
-F1 "esynr3z_Oscillator_ECS-2520MV-500-BN-TR" -250 200 60 H V L CNN
+F1 "esynr3z_Oscillator_ECS-2520MV-XXX" -250 200 60 H V L CNN
 F2 "lib_fp:ECS-2520MV_4Pin_2.5x2.0mm" 400 500 60 H I L CNN
 F3 "https://www.ecsxtal.com/store/pdf/ECS-2520MV.pdf" 400 600 60 H I L CNN
 DRAW

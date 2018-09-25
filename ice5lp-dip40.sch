@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "Lattice iCE5LP4K DIP40 breakout board"
 Date "2018-07-23"
-Rev "v1.0"
+Rev "A"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -1269,11 +1269,11 @@ F 3 "lib_fp://www.comchiptech.com/cms/UserFiles/CDBU0520-RevA728099.pdf" H 6350 
 	0    1    1    0   
 $EndComp
 $Comp
-L ice5lp-dip40:esynr3z_Oscillator_ECS-2520MV-500-BN-TR X1
+L ice5lp-dip40:esynr3z_Oscillator_ECS-2520MV-XXX X1
 U 1 1 5B84C298
 P 9950 1200
 F 0 "X1" H 9950 1537 60  0000 C CNN
-F 1 "ECS-2520MV-500-BN-TR" H 10200 1400 60  0000 C CNN
+F 1 "ECS-2520MV-120-BN-TR" H 10200 1400 60  0000 C CNN
 F 2 "lib_fp:ECS-2520MV_4Pin_2.5x2.0mm" H 10350 1700 60  0001 L CNN
 F 3 "lib_fp://www.ecsxtal.com/store/pdf/ECS-2520MV.pdf" H 10350 1800 60  0001 L CNN
 	1    9950 1200
