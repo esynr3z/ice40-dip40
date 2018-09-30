@@ -1,12 +1,6 @@
 # iCE40 breakout board
 
-Miniature FPGA development board with DIP40 gabarits.
-
-**BOARD IS NOT TESTED YET**
-
-![Schematic](images/sch.png)
-
-![PCB](images/pcb.png)
+Miniature FPGA development board with DIP40 gabarits
 
 ## Features
 
@@ -20,6 +14,14 @@ Miniature FPGA development board with DIP40 gabarits.
 * CRESET push button and CDONE led
 * User led and user push button
 * RGB led connected to internal driver
+
+## Board
+
+**BOARD IS NOT TESTED YET**
+
+![Schematic](images/sch.png)
+
+![PCB](images/pcb.png)
 
 ## Notes
 
