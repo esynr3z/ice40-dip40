@@ -4,6 +4,8 @@ Miniature FPGA development board with DIP40 gabarits.
 
 **BOARD IS NOT TESTED YET**
 
+![Schematic](images/sch.png)
+
 ![PCB](images/pcb.png)
 
 ## Features
