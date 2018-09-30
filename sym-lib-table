@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name ice5lp-dip40)(type Legacy)(uri ${KIPRJMOD}/lib_sym/ice5lp-dip40.lib)(options "")(descr ""))
+  (lib (name ice40-dip40)(type Legacy)(uri ${KIPRJMOD}/lib_sym/ice40-dip40.lib)(options "")(descr ""))
 )

@@ -11,7 +11,7 @@
 
   (page A4)
   (title_block
-    (title "Lattice iCE5LP4K DIP40 breakout board")
+    (title "Lattice iCE40 Ultra/Ultra+ breakout DIP40-like board")
     (rev A)
   )
 

@@ -23,18 +23,3 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 22,,esynr3z_FPGA_ICE5LP4K-SG48,U3,ICE5LP4K-SG48,QFN-48-1EP_7x7mm_P0.5mm_EP5x5mm_ThermalVias,1,
 23,,esynr3z_RegulatorLinear_MIC5355-S4YMME,U2,MIC5355-S4YMME,MSOP-8-1EP_3x3mm_P0.65mm_EP2.54x2.8mm_ThermalVias,1,lib_fp://ww1.microchip.com/downloads/en/DeviceDoc/mic5355_6.pdf
 24,,esynr3z_Oscillator_ECS-2520MV-XXX,X1,ECS-2520MV-120-BN-TR,ECS-2520MV_4Pin_2.5x2.0mm,1,lib_fp://www.ecsxtal.com/store/pdf/ECS-2520MV.pdf
-
-
-
-
-
-Component Groups:,24
-Component Count:,46
-Fitted Components:,46
-Number of PCBs:,1
-Total components:,46
-Schematic Version:,A
-Schematic Date:,2018-07-23
-BoM Date:,Tue 25 Sep 2018 20:38:47 MSK
-Schematic Source:,/home/esynr3z/MyRepos/ice5lp-dip40/ice5lp-dip40.sch
-KiCad Version:,Eeschema 6.0.0-rc1-unknown-r13783-618182dc

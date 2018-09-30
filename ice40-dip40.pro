@@ -15,7 +15,7 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=esynr3z.kicad_wks
-LastNetListRead=ice5lp-dip40.net
+LastNetListRead=ice40-dip40.net
 CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
