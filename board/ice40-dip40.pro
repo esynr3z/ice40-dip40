@@ -1,4 +1,4 @@
-update=Sun 05 Aug 2018 12:30:47 MSK
+update=Mon 04 Mar 2019 21:42:35 MSK
 version=1
 last_client=kicad
 [general]
@@ -84,7 +84,7 @@ PageLayoutDescrFile=esynr3z.kicad_wks
 PlotDirectoryName=doc/
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=
+NetFmtName=Pcbnew
 SpiceAjustPassiveValues=0
 LabSize=50
 ERC_TestSimilarLabels=1

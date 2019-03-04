@@ -4,9 +4,9 @@ Miniature FPGA development board with DIP40 gabarits
 
 ## Features
 
-* Lattice iCE40 Ultra, iCE40 UltraPlus compatible (see Notes)
+* Lattice iCE40UP5KSG48 (iCE40 Ultra, iCE40 UltraPlus compatible - see Notes)
 * Size 17.78mm x 50.8mm (DIP40)
-* 12 MHz external generator
+* 16 MHz external generator
 * Input power voltage: 5V (USB Micro B)
 * USB data lines routed to FPGA
 * 8Mb SPI flash for programming
@@ -25,7 +25,7 @@ Miniature FPGA development board with DIP40 gabarits
 
 ## Notes
 
-Board is routed for iCE5LP4KSG48 (iCE40 Ultra family), but list of supported FPGAs is quite wider:
+Board is routed for iCE40UP5KSG48 (iCE40 UltraPlus family), but list of supported FPGAs is quite wider:
 
 * iCE40 Ultra - iCE5LP1KSG48, iCE5LP2KSG48, iCE5LP4KSG48
 * iCE40 UltraPlus - iCE40UP3KSG48, iCE40UP5KSG48
