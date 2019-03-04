@@ -19,7 +19,7 @@ Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
 18,,Device_R,R14 R15,68,R_0603,2,~
 19,,Device_R,R7,82,R_0603,1,~
 20,,Switch_SW_Push,SW1 SW2,SW_Push,PTS830,2,
-21,,esynr3z_MemoryFlash_AT25D081-SSHD,U1,AT25D081-SSHD,SOIC-8_3.9x4.9mm_P1.27mm,1,https://www.adestotech.com/wp-content/uploads/DS-AT25SF081_045.pdf
-22,,esynr3z_FPGA_ICE5LP4K-SG48,U3,ICE5LP4K-SG48,QFN-48-1EP_7x7mm_P0.5mm_EP5x5mm_ThermalVias,1,
+21,,esynr3z_MemoryFlash_W25Q80DVSNIG,U1,W25Q80DVSNIG,SOIC-8_3.9x4.9mm_P1.27mm,1,https://www.adestotech.com/wp-content/uploads/DS-AT25SF081_045.pdf
+22,,esynr3z_FPGA_ICE40UP5K-SG48I,U3,ICE5LP4K-SG48,QFN-48-1EP_7x7mm_P0.5mm_EP5x5mm_ThermalVias,1,
 23,,esynr3z_RegulatorLinear_MIC5355-S4YMME,U2,MIC5355-S4YMME,MSOP-8-1EP_3x3mm_P0.65mm_EP2.54x2.8mm_ThermalVias,1,lib_fp://ww1.microchip.com/downloads/en/DeviceDoc/mic5355_6.pdf
 24,,esynr3z_Oscillator_ECS-2520MV-XXX,X1,ECS-2520MV-120-BN-TR,ECS-2520MV_4Pin_2.5x2.0mm,1,lib_fp://www.ecsxtal.com/store/pdf/ECS-2520MV.pdf

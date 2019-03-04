@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 26 0
+LIBS:ice40-dip40-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -13,17 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L ice40-dip40:esynr3z_FPGA_ICE5LP4K-SG48 U3
-U 1 1 5B44F1FF
-P 6350 4200
-F 0 "U3" H 7350 6200 60  0000 C CNN
-F 1 "ICE5LP4K-SG48" H 7050 6100 60  0000 C CNN
-F 2 "lib_fp:QFN-48-1EP_7x7mm_P0.5mm_EP5x5mm_ThermalVias" H 7850 6450 50  0001 C CNN
-F 3 "" H 5700 5200 50  0001 C CNN
-	1    6350 4200
-	1    0    0    -1  
-$EndComp
 $Comp
 L ice40-dip40:power_GND #PWR0101
 U 1 1 5B44F4B5
@@ -478,18 +468,14 @@ Wire Wire Line
 	9300 3600 9300 3700
 Wire Wire Line
 	9300 3700 9400 3700
-Text GLabel 7700 5600 2    50   Input ~ 0
+Text GLabel 7700 5800 2    50   Input ~ 0
 RGB_R
 Text GLabel 7700 5700 2    50   Input ~ 0
 RGB_G
-Text GLabel 7700 5800 2    50   Input ~ 0
+Text GLabel 7700 5600 2    50   Input ~ 0
 RGB_B
 Wire Wire Line
-	7700 5800 7600 5800
-Wire Wire Line
 	7700 5700 7600 5700
-Wire Wire Line
-	7700 5600 7600 5600
 $Comp
 L ice40-dip40:Device_R R7
 U 1 1 5B483E21
@@ -1272,7 +1258,7 @@ L ice40-dip40:esynr3z_Oscillator_ECS-2520MV-XXX X1
 U 1 1 5B84C298
 P 9950 1200
 F 0 "X1" H 9950 1537 60  0000 C CNN
-F 1 "ECS-2520MV-120-BN-TR" H 10200 1400 60  0000 C CNN
+F 1 "ECS-2520MV-160-BN-TR" H 10200 1400 60  0000 C CNN
 F 2 "lib_fp:ECS-2520MV_4Pin_2.5x2.0mm" H 10350 1700 60  0001 L CNN
 F 3 "lib_fp://www.ecsxtal.com/store/pdf/ECS-2520MV.pdf" H 10350 1800 60  0001 L CNN
 	1    9950 1200
@@ -1689,13 +1675,13 @@ Connection ~ 4500 5150
 Text Label 4500 4050 0    50   ~ 0
 CRESET
 $Comp
-L ice40-dip40:esynr3z_MemoryFlash_AT25D081-SSHD U1
+L ice40-dip40:esynr3z_MemoryFlash_W25Q80DVSNIG U1
 U 1 1 5BA61AF9
 P 1950 1850
 F 0 "U1" H 1950 2254 45  0000 C CNN
-F 1 "AT25D081-SSHD" H 1950 2170 45  0000 C CNN
+F 1 "W25Q80DVSNIG" H 1950 2170 45  0000 C CNN
 F 2 "lib_fp:SOIC-8_3.9x4.9mm_P1.27mm" H 2300 2200 20  0001 C CNN
-F 3 "https://www.adestotech.com/wp-content/uploads/DS-AT25SF081_045.pdf" H 2500 2300 50  0001 C CNN
+F 3 "https://www.winbond.com/resource-files/w25q80dv_revg_07212015.pdf" H 2500 2300 50  0001 C CNN
 	1    1950 1850
 	1    0    0    -1  
 $EndComp
@@ -1775,4 +1761,20 @@ VCC_IO
 Text GLabel 9200 5750 2    50   Input ~ 0
 VCC_CORE
 NoConn ~ 1700 4550
+$Comp
+L ice40-dip40:esynr3z_FPGA_ICE40UP5K-SG48I U3
+U 1 1 5B44F1FF
+P 6350 4200
+F 0 "U3" H 7350 6200 60  0000 C CNN
+F 1 "ICE40UP5K-SG48I" H 7050 6100 60  0000 C CNN
+F 2 "lib_fp:QFN-48-1EP_7x7mm_P0.5mm_EP5x5mm_ThermalVias" H 7850 6450 50  0001 C CNN
+F 3 "" H 5700 5200 50  0001 C CNN
+F 4 "Lattice" H 6350 4200 50  0001 C CNN "Lanufacturer"
+	1    6350 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 5600 7600 5600
+Wire Wire Line
+	7700 5800 7600 5800
 $EndSCHEMATC
